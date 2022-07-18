@@ -7,7 +7,7 @@ const Hedear = () => {
             <div className={styles['nav__container']}>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <Link href="/" >
                             <a>
                                 Dashboard
                             </a>
