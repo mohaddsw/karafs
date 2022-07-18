@@ -1,20 +1,22 @@
 import Link from 'next/link'
 import styles from './Hedear.module.scss'
 
+
 const Hedear = () => {
+
     return (
         <nav className={styles['nav']}>
             <div className={styles['nav__container']}>
                 <ul>
-                    <li>
+                    <li >
                         <Link href="/" >
                             <a>
                                 Dashboard
                             </a>
                         </Link>
                     </li>
-                    <li>
-                        <Link href={`/users`}>
+                    <li >
+                        <Link href={`/users`} >
                             <a >
                             users
                             </a>

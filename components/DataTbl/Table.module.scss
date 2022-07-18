@@ -1,0 +1,51 @@
+
+    .table{
+        width: auto;
+        height: 500px;
+        overflow-y: auto;
+        border-radius: 5px;
+        background-color:darken($color: #062C30, $amount: 3);
+        color:#F5F5F5;
+        
+        table{
+            width: 100%;
+            padding: 10px 15px;
+            border-collapse: collapse;
+            thead{
+            
+                tr{
+                    border-collapse: collapse;
+                    box-shadow: 0px 5px 8px darken($color: #062C30, $amount: 5);
+                    th{
+                        padding: 20px 30px;
+                        text-align: left;
+                        color: #FFB037;
+                        border-collapse: collapse;
+                      
+                    }
+                }
+            }
+            tbody{
+                width: 100%;
+                box-sizing: border-box;
+                height: 500px;
+                overflow-y: auto0;
+                tr{
+                    cursor: pointer;
+                    border-bottom:1px dotted darken($color: #062C30, $amount: 5);
+                    td{
+                        padding: 15px 30px;
+                        text-align: left;
+                        color: #FFE268;
+                    }
+                }
+            }
+
+        }
+       
+    
+    
+     
+    }
+    
+  
