@@ -7,7 +7,38 @@
     &__table{
         width: auto;
         max-height: 500px;
-        border: 1px solid red;
-        padding: 10px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: #2F5D62;
+        color:#F5F5F5;
+        border-collapse: collapse;
+    }
+    thead{
+        tr{
+            border-collapse: collapse;
+            th{
+                padding: 20px;
+                text-align: left;
+                color: #FFB037;
+                border-collapse: collapse;
+            }
+        }
+    }
+    tbody{
+        tr{
+            td{
+                padding: 10px 20px;
+                text-align: left;
+                color: #FFE268;
+            }
+        }
     }
 }
+
+
+
+// 
+// #062C30
+// #05595B
+// #E2D784
+// #F5F5F5
